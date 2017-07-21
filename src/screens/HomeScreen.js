@@ -4,6 +4,8 @@ import {
   Button,
   StyleSheet,
   View,
+  Button,
+  TouchableHighlight,
 } from 'react-native';
 
 import Info from '../components/Info';
