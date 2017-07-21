@@ -77,9 +77,9 @@ export default class HomeScreen extends Component {
             'Alert Title',
             'alertMessage',
           )}>
-          <Button>
+          <View>
             <Text>Alert !</Text>
-          </Button>
+          </View>
         </TouchableHighlight>
         </View>
       </ScrollView>
