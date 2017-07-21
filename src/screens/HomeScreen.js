@@ -70,6 +70,15 @@ export default class HomeScreen extends Component {
             onPress={this.navigateToState}
             title="State"
           />
+          <TouchableHighlight style={styles.wrapper}
+          onPress={() => Alert.alert(
+            'Alert Title',
+            'alertMessage',
+          )}>
+          <Button>
+            <Text>Alert !</Text>
+          </Button>
+        </TouchableHighlight>
         </View>
       </ScrollView>
     );
