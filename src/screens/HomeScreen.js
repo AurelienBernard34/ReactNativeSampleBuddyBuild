@@ -4,6 +4,9 @@ import {
   Button,
   StyleSheet,
   View,
+  TouchableHighlight,
+  Text,
+  Alert,
 } from 'react-native';
 
 import Info from '../components/Info';
@@ -70,6 +73,15 @@ export default class HomeScreen extends Component {
             onPress={this.navigateToState}
             title="State"
           />
+          <TouchableHighlight
+          onPress={() => Alert.alert(
+            'Alert Title',
+            'alertMessage',
+          )}>
+          <View>
+            <Text>Alert !</Text>
+          </View>
+        </TouchableHighlight>
         </View>
       </ScrollView>
     );
