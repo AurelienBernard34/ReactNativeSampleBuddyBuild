@@ -6,6 +6,7 @@ import {
   View,
   TouchableHighlight,
   Text,
+  Alert,
 } from 'react-native';
 
 import Info from '../components/Info';
